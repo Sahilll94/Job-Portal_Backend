@@ -22,7 +22,7 @@
     app.use(express.urlencoded({extended:true}));
     app.use(cookieParser());
     const corsOptions = {
-        origin:'https://job-portal-frontend-ju4r.vercel.app',
+        origin:'*',
         credentials:true
     }
 
